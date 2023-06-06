@@ -1,6 +1,5 @@
 import React from 'react'
 import './header.css'
-import './CTA'
 import CTA from './CTA' //here we import the CTA component inside our header
 import me from '../../assets/lionel.jpg'
 import HeaderSocial from './headerSocial' //import of headerSocial component

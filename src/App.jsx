@@ -1,4 +1,5 @@
-import './App.css';
+import React from 'react'
+import './index.css'
 import Header from './components/header/header'
 import Navbar from './components/navbar/navbar'
 import About from './components/about/about'
@@ -10,9 +11,10 @@ import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 function App () {
 return (
-<div>
-<Header/>
-{/* <Navbar/>
+<>
+    <Header />
+    
+{/* 
 <About/>
 <Experience/>
 <Services/>
@@ -20,7 +22,7 @@ return (
 <Testimonial/>
 <Contact/>
 <Footer/> */}
-</div>
+</>
 );
 }
 export default App;
